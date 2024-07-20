@@ -1,24 +1,35 @@
 <div style="border-bottom: 4px solid black; width: 100%; box-sizing: border-box; text-align: center; padding-top: 0.1rem;" align="center">
     <h1>ElderViews<br/><span style="font-style: italic">Smart AI Glasses Designed for Seniors</span></h1>
 </div>
-<div style="text-align: center;" align="center">
-    GDOU-XinYi  │  July 2024
+
+<div style="display: flex; align-items: center; justify-content: center;" align="center">
+    <a href="javascript:void(0)" style="height: 30px;">
+      GDOU-Nebula
+    </a>
+    <span style="padding-left: 10px; padding-right: 10px"> │ </span>
+    <a href="https://github.com/InternLM/Tutorial/tree/camp3" style="display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 18px; color: rgb(27,56,130); height: 30px;">
+      InternLM Tutorial
+    </a>
 </div>
 
 ## Project Background📖 
 
 With the advancement of technology, smart wearable devices have become an indispensable part of daily life. AI glasses, as a new type of smart device, not only provide information queries and navigation functions but also enhance the quality and safety of users' lives through artificial intelligence technology. This project aims to develop AI glasses with intelligent interaction, reading assistance, item search, emergency rescue, smart navigation, and obstacle avoidance functions, specifically designed to meet the needs of elderly users, capable of recognizing dialects, and providing functions that facilitate their daily lives.
 
+The support of InternLM training camp Ⅲ and the tutorial offered make this project more possible to realize. The project is expected to provide a more intelligent and user-friendly experience for seniors, helping them live a more convenient and secure life.
+
 ## Introduction📜
 
 **Smart AI Glasses**: A smart wearable device specifically designed for seniors, integrating natural language processing, computer vision, and machine learning technologies. It offers various functions such as intelligent interaction, reading assistance, item search, emergency rescue, smart navigation, and obstacle avoidance to enhance the quality and safety of seniors' lives.
 
+**Key Features**: Integrates wearable device with advanced **InternLM and InternVL model**, offering personalized life advice, anomaly detection, and real-time notifications. The system supports voice interaction, reading assistance, item search, and obstacle avoidance functions, providing a more intelligent and user-friendly experience for seniors.
+
 ## Project Implementation Technologies🤖
 
-This project utilizes the InternVL version of the large language model and includes the following technical components:
+This project utilizes InternVL and InternLM, and includes the following technical components:
 
-- **Natural Language Processing (NLP)**: To achieve accurate and natural conversation, the system uses advanced NLP algorithms to understand and generate human language.
-- **Computer Vision**: For reading assistance, item search, and obstacle avoidance functions, the system employs state-of-the-art computer vision technology to interpret visual information.
+- **NLP with the core of InternLM**: To achieve accurate and natural conversation, the system uses advanced NLP algorithms to understand and generate human language.
+- **Computer Vision with the core of InternVL**: For reading assistance, item search, and obstacle avoidance functions, the system employs state-of-the-art computer vision technology to interpret visual information.
 - **Machine Learning**: Personalized life advice and anomaly detection rely on machine learning models trained on vast amounts of data.
 - **Speech Recognition and Synthesis**: Integrates high-precision speech recognition and synthesis systems to support voice interaction and real-time notifications.
 
@@ -80,6 +91,8 @@ We believe with the integration of these technologies, with the core of the Inte
 This project uses information from the following sources:
 
 - [XTuner: A Toolkit for Efficiently Fine-tuning LLM](https://github.com/InternLM/xtuner)
+
+- [InternLM: A Multilingual Language Model with Progressively Enhanced Capabilities](https://github.com/InternLM/InternLM)
 
 - [InternVL Family: A Pioneering Open-Source Alternative to GPT-4V](https://github.com/OpenGVLab/InternVL)
 
